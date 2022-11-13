@@ -1,0 +1,89 @@
+/*onex(local), dk, kindle, win, Mac/iOS, andriod, linux*/
+@font-face {
+    font-family:"st";
+    src:local("st"),
+        local("DK-SONGTI"),local("STSong"),
+        local("宋体"),local("SimSun"),local("NSimSun"),
+        local("Songti SC"),local("Songti TC"),
+        local("Noto Serif CJK SC");
+}
+@font-face {
+    font-family: "kt";
+    src:local("kt"),local("STKai"),
+        local("DK-KAITI"),
+        local("楷体"),local("KaiTi"),
+        local("STKaiti"),
+        local("Noto Serif CJK SC");
+}
+@font-face {
+    font-family: "ht";
+    src:local("ht"),local("STHeiti"),
+        local("DK-HEITI"),
+        local("黑体"),local("SimHei"),local("微软正黑体"),local("Microsoft JhengHei"),
+        local("STHeiti"),
+        local("Noto Sans SC");
+}
+@font-face {
+    font-family: "xt";
+    src:local("xt"),local("STYuan"),
+        local("DK-XIHEITI"),
+        local("微软雅黑"),local("Microsoft Yahei"),
+        local("Yuanti SC"),
+        local("Noto Sans SC");
+}
+@font-face {
+    font-family: "fs";
+    src:local("fs"),
+        local("DK-FANGSONG"),local("STYuan"),
+        local("仿宋"),local("FangSong"),
+        local("STFangsong"),
+        local("Noto Serif CJK SC");
+}
+@font-face {
+    font-family: "h1";
+    src:url("../Fonts/h1.ttf"),
+        local("h1"),
+        local("黑体"),local("SimHei"),local("微软雅黑"),local("Microsoft Yahei")
+        local("STHeiti"),
+        local("STHei");
+}
+@font-face {
+    font-family: "h2";
+    src:url("../Fonts/h2.ttf"),
+        local("h2"),
+        local("DK-DABIAOSONG"),
+        local("方正大标宋_GBK"), local("方正大标宋简体"),  local("方正大标宋繁体"),
+        local("隶书"),local("Lisu"),
+        local("STLiti"),
+        local("STHei");
+}
+@font-face {
+    font-family: "h3";
+    src:url("../Fonts/h3.ttf"),
+        local("h3"),
+        local("DK-XIAOBIAOSONG"),
+        local("方正小标宋_GBK"), local("方正小标宋简体"),  local("方正小标宋繁体"),
+        local("STSongti"),
+        local("STSong");
+}
+@font-face {
+    font-family: "eng";
+    src:url("../Fonts/Bookerly.ttf"),
+        local("Bookerly");
+}
+@font-face {
+    font-family: "eng";
+    font-weight: bold;
+    src:url("../Fonts/Bookerly Bold.ttf"),
+        local("Bookerly Bold");
+}
+@font-face {
+    font-family: "eng";
+    font-style: italic;
+    src:url("../Fonts/Bookerly Italic.ttf"),
+        local("Bookerly Italic");
+}
+.font-song {font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;}
+.font-hei {font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;}
+.font-kai {font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;}
+.font-fang-song {font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif;}
